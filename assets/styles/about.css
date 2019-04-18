@@ -1,0 +1,69 @@
+body {
+    background: url('../images/hostel.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.nb {
+    box-shadow: 20px 20px 18px #00000057;
+background: #2BC0E4;
+/* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);
+/* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAECC6, #2BC0E4);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.jumbotron {
+background: #2BC0E4;
+/* fallback for old browsers */
+background: -webkit-linear-gradient(to right, rgba(234, 236, 198, 0.5), rgba(43, 191, 228, 0.5));
+/* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, rgba(234, 236, 198, 0.5), rgba(43, 191, 228, 0.5));
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 8px #00000057;
+}
+
+.jumbotron:hover {
+ background: #2BC0E4;
+ /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, rgba(234, 236, 198, 0.699), rgba(43, 191, 228, 0.699));
+ /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, rgba(234, 236, 198, 0.699), rgba(43, 191, 228, 0.699));
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 18px #00000057;
+}
+
+.img {
+    border-radius:50%;
+    padding-top:20px;
+}
+
+.f {
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.s {
+    font-family: courier;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    padding: 20PX;
+    border-radius: 15px;
+    width: 600PX
+}
+
+li {
+    font-size: 15px
+}
