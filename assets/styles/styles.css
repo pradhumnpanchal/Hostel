@@ -1,0 +1,33 @@
+body {
+    background: url('/assets/images/hostel.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.f {
+    font-size: 60px;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.s {
+    font-family: courier;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    padding: 20PX;
+    border-radius: 15px;
+    width: 600PX
+}
+
+li {
+    font-size: 15px
+}
+
+.log {
+    text-decoration: none;
+    color: white
+}

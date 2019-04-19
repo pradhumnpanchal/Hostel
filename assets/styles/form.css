@@ -2,13 +2,28 @@
 
 /*General */
 html{    
-  background:url('images/sun-2297961_1920.jpg') no-repeat;
+  	/* background: url('/assets/images/clouds-dawn-desert-407039.jpg'); */
   background-size: cover;
   height:100%;
 }
 body
 {
+	background: url('/assets/images/clouds-dawn-desert-407039.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.nb {
+	box-shadow: 20px 20px 18px #00000057;
+
+	background: #DCE35B;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #45B649, #DCE35B);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #45B649, #DCE35B);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #feedback-page{
@@ -22,7 +37,8 @@ body
 }
 
 #form-div {
-	background-color:rgba(72,72,72,0.4);
+	background-color:rgba(72, 72, 72, 0.5);
+	box-shadow: 10px 10px 8px #00000057;
 	padding-left:35px;
 	padding-right:35px;
 	padding-top:35px;
@@ -35,6 +51,11 @@ body
 	margin-left: -260px;
   border-radius: 7px;
   
+}
+
+#form-div:hover {
+	background-color:rgba(72, 72, 72, 0.699);
+	box-shadow: 20px 20px 18px #00000057;
 }
 
 .montform .feedback-input {
