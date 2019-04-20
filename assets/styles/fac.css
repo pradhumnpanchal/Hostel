@@ -1,0 +1,58 @@
+
+.nb {
+    box-shadow: 20px 20px 18px #00000057;
+
+    background: #a8ff78;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.jumbotron {
+    background: #a8ff78;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd780, #a7ff7880);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd780, #a7ff7880);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 8px #00000057;
+}
+
+.jumbotron:hover {
+    background: #a8ff78;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd7c5, #a7ff78c5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd7c5, #a7ff78c5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 18px #00000057;
+}
+
+/* .f {
+    font-size: 60px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.s {
+    font-family: courier;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    padding: 20PX;
+    border-radius: 15px;
+    width: 600PX
+}
+
+li {
+    font-size: 15px
+} */

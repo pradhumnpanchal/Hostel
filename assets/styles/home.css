@@ -1,0 +1,82 @@
+
+.nb {
+    box-shadow: 20px 20px 18px #00000057;
+          background: #43C6AC;
+          /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);
+          /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, #F8FFAE, #43C6AC);
+          /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn {
+    border: 1px solid green;
+}
+
+.f {
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.s {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 10px 10px 8px #00000057;
+    color: black;
+    padding: 20px;
+    /* border-radius: 15px; */
+    width: auto;
+    height: auto;
+}
+
+.s:hover {
+    box-shadow: 20px 20px 18px #00000057;
+    background-color: rgba(255, 255, 255, 0.699);
+
+}
+
+li {
+    font-size: 15px
+}
+
+marquee {
+    background-color:rgba(0, 0, 0, 0.5);
+    color:white;
+}
+
+marquee:hover {
+        box-shadow: 10px 10px 8px #00000057;
+} 
+
+.jumbotron {
+    /* box-shadow: 20px 20px 18px #00000057; */
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    box-shadow: 10px 10px 8px #00000057;
+    background: #43C6AC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(248, 255, 174, 0.596), rgba(67, 198, 172, 0.596));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(248, 255, 174, 0.596), rgba(67, 198, 172, 0.596));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: auto;
+    height: auto;
+}
+
+.jumbotron:hover {
+    box-shadow: 20px 20px 18px #00000057;
+          background: #43C6AC;
+          /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, rgba(248, 255, 174, 0.699), rgba(67, 198, 172, 0.699));
+          /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, rgba(248, 255, 174, 0.699), rgba(67, 198, 172, 0.699));
+          /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.text-center {
+    opacity: 1;
+}
